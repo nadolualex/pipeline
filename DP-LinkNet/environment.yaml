@@ -1,0 +1,11 @@
+name: dplinknet
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.8
+  - pip
+  - pip:
+      - torch==1.13.1
+      - torchvision==0.14.1
+      - opencv-python==4.7.0.72
